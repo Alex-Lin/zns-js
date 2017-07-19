@@ -1,10 +1,9 @@
 {
   "name": "zns-js",
   "version": "0.0.1",
-  "description": "",
+  "description": "mongodb, dynamodb and kts wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
   },
   "repository": {
     "type": "git",
