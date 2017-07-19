@@ -1,0 +1,32 @@
+{
+  "name": "zns-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Lin/zns-js.git"
+  },
+  "keywords": [
+    "zns-js",
+    "mongoose",
+    "mongodb",
+    "dynamodb"
+  ],
+  "author": "Alex Lin <alex@zns.me> (http://zns.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex-Lin/zns-js/issues"
+  },
+  "homepage": "https://github.com/Alex-Lin/zns-js#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "dynogels": "^8.0.1",
+    "joi": "^10.5.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.3"
+  }
+}
