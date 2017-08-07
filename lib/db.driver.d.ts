@@ -14,7 +14,6 @@ export type IndexName = string | undefined;
 
 export interface DbDriver {
 
-    Model(name: string, schema: any, prefix: Prefix): void;
     load(name: string, prefix: Prefix, id: any, fields: Array<string> | DbCallback, callback?: DbCallback): void;
     save(name: string, prefix: Prefix, item: any, callback: DbCallback): void;
     loadBatch(name: string, prefix: Prefix, idArray: Array<any>, fields: Array<string> | DbCallback, callback?: DbCallback): void;
