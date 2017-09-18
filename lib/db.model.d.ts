@@ -9,7 +9,7 @@ export interface DbCallback {
 }
 
 export type HashKey = string | number;
-export type IndexName = string | undefined;
+export type IndexName = string;
 
 export interface DbModel {
 
@@ -20,7 +20,7 @@ export interface DbModel {
     saveBatch(items: Array<any>, callback: DbCallback): void;
     remove(id: any, callback: DbCallback): void;
     create(data: any, callback: DbCallback): void;
-    query(hashKey: HashKey, indexName: IndexName): DbQuery;
+    query(hashKey: HashKey, indexName?: IndexName): DbQuery;
     scan(): DbQuery;
 }
 
