@@ -1,7 +1,7 @@
 {
   "name": "zns-js",
   "version": "0.0.7",
-  "description": "mongodb, dynamodb and kts wrapper",
+  "description": "mongodb, dynamodb wrapper. aliyun oss, aws s3, qq cos wrapper",
   "main": "index.js",
   "scripts": {},
   "repository": {
@@ -12,7 +12,13 @@
     "zns-js",
     "mongoose",
     "mongodb",
-    "dynamodb"
+    "dynamodb",
+    "aliyun",
+    "qcloud",
+    "aws",
+    "s3",
+    "oss",
+    "cos"
   ],
   "author": "Alex Lin <alex@zns.me> (http://zns.me)",
   "license": "MIT",
