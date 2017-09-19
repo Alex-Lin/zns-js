@@ -1,10 +1,9 @@
 {
   "name": "zns-js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "mongodb, dynamodb and kts wrapper",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alex-Lin/zns-js.git"
@@ -22,10 +21,14 @@
   },
   "homepage": "https://github.com/Alex-Lin/zns-js#readme",
   "dependencies": {
+    "ali-oss": "4.10.1",
     "async": "2.5.0",
+    "co": "4.6.0",
+    "cos-nodejs-sdk-v5": "2.0.12",
     "dynogels": "8.0.1",
     "joi": "10.5.0",
     "lodash": "4.17.4",
+    "md5": "2.2.1",
     "mongoose": "4.11.3"
   }
 }

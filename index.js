@@ -4,5 +4,6 @@
  */
 
 module.exports = {
-    db: require('./lib/db.js')
+    db: require('./lib/db.js'),
+    Oss: require('./lib/oss.js')
 };
