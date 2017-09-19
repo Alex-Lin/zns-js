@@ -1,6 +1,6 @@
 {
   "name": "zns-js",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "description": "mongodb, dynamodb wrapper. aliyun oss, aws s3, qq cos wrapper",
   "main": "index.js",
   "scripts": {},
@@ -36,5 +36,7 @@
     "lodash": "4.17.4",
     "md5": "2.2.1",
     "mongoose": "4.11.3"
+  },
+  "devDependencies": {
   }
 }

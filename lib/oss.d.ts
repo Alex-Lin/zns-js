@@ -10,10 +10,10 @@ declare class Oss {
 
 declare namespace Oss {
     export interface PutObjParam {
-        Bucket: string,
-        public: Boolean,
+        Bucket?: string,
+        public?: Boolean,
         Key: string,
-        Body: string
+        Body: string | Buffer
     }
 
     export interface GetObjParam {

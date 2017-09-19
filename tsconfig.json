@@ -11,8 +11,7 @@
     "experimentalDecorators": true,
     "target": "es5",
     "typeRoots": [
-      "../node_modules/@types",
-      "../lib"
+      "./lib"
     ],
     "lib": [
       "es2016",
