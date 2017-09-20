@@ -17,7 +17,7 @@ declare namespace Oss {
     }
 
     export interface GetObjParam {
-        Bucket: string,
+        Bucket?: string,
         Key: string
     }
 
