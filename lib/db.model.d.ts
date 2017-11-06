@@ -8,6 +8,7 @@ export interface DbCallback {
     (err: Error | string | null, result: any): void;
 }
 
+
 export type HashKey = string | number;
 export type IndexName = string;
 
@@ -16,6 +17,7 @@ export interface DbModel {
     dirty(): void;
     load(id: any, fields: Array<string> | DbCallback, callback?: DbCallback): void;
     save(item: any, callback: DbCallback): void;
+    fetchID(callback: DbCallback): void;
     loadBatch(idArray: Array<any>, fields: Array<string> | DbCallback, callback?: DbCallback): void;
     saveBatch(items: Array<any>, callback: DbCallback): void;
     remove(id: any, callback: DbCallback): void;

@@ -18,6 +18,7 @@ export interface DbDriver {
     save(name: string, prefix: Prefix, item: any, callback: DbCallback): void;
     loadBatch(name: string, prefix: Prefix, idArray: Array<any>, fields: Array<string> | DbCallback, callback?: DbCallback): void;
     saveBatch(name: string, prefix: Prefix, items: Array<any>, callback: DbCallback): void;
+    fetchID(prefix: Prefix, idName: string): void;
     remove(name: string, prefix: Prefix, id: any, callback: DbCallback): void;
     create(name: string, prefix: Prefix, data: any, callback: DbCallback): void;
     query(name: string, prefix: Prefix, hashKey: HashKey, indexName: IndexName): DbQuery;
