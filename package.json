@@ -31,12 +31,12 @@
     "async": "2.5.0",
     "co": "4.6.0",
     "cos-nodejs-sdk-v5": "2.0.12",
+    "dnode": "1.2.2",
     "dynogels": "8.0.1",
     "joi": "10.5.0",
     "lodash": "4.17.4",
     "md5": "2.2.1",
     "mongoose": "4.11.3"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
